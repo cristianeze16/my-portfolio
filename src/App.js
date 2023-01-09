@@ -5,20 +5,18 @@ import Portfolio from "./components/Portfolio";
 import "./styles/App.css";
 function App() {
   return (
-    <div>
-      <body>
-        <header>
-          <NavBar />
-        </header>
-        <main >
-          <Banner />
-          <Portfolio />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-      </body>
-    </div>
+    <body>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <Banner />
+        <Portfolio />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </body>
   );
 }
 

@@ -4,7 +4,7 @@ export default function Banner() {
   return (
     <div className="image-container">
       <div className='write-container' >
-        <p> Cristian Desarrollador Web Fullstack.</p>
+        <p className='write-effect'> Cristian Desarrollador Web Fullstack.</p>
         <button className='about-button'>Sobre Mí</button>
       </div>
     </div>
