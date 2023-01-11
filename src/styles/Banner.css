@@ -54,10 +54,11 @@ animation: typing 4s steps(38) 1s 1 normal both, blink 1s steps(1) infinite;
   margin:0 auto;
   border-radius: 8px;
   border:none;
+  transition: 0.3s;
+
 }
 
 .about-button:hover{
   scale: 1.1;
-  transition: 0.3s;
   background-color: rgb(4,45,130);
 }

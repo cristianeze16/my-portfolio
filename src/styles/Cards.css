@@ -1,7 +1,39 @@
-.card-container{
-  width: 400px;
+.card-container {
+  width: 850px;
+  height: 560px;
+  box-shadow: 0 0.5rem 2rem 0.5rem rgb(4, 45, 130);
+  border-radius: 8px;
+  transition:.5s ease-in-out;
+
+}
+.image-cards {
+  width:100%;
+  border-radius: 8px 8px 0 0 ;
+  height: 400px;
+  position: relative;
+}
+.card-container:hover{
+  scale: 1.05;
+}
+.desc-card {
+  text-align: center;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 1rem;
+  padding: .5rem;
+}
+
+.card-title{
+  padding: .5rem;
+  height: 45px;
+  margin-top: -3px;
+  background-color: black;
+  color:whitesmoke;
+  width: 100%;
+  text-align: center;
   
+
 }
-.image-cards{
- width: 100%;
-}
+
+
+
